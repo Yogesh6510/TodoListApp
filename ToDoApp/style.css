@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --light-gray:#7284a1;
+}
+.input-section{
+    gap: 2%;
+    margin-top: 2.5%;
+}
+.todo-input{
+        /* width: 50%; */
+        flex-basis: 50%;
+        
+}
+.list-todo-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.todo-no{
+    flex-basis: 10%;
+}
+.todo-detail{
+     flex-basis: 70%;
+}
+.todo-status{
+   flex-basis: 15%;
+}
+.todo-action{
+    flex-basis: 25%;
+}
+
+.todo-item{
+    font-size: 1.3rem;
+    color: var(--light-gray);
+}
+.todo-item .todo-no{
+    color: black;
+}
+.todo-item{
+    margin-bottom: 1rem;
+}
